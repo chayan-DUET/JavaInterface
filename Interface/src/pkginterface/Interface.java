@@ -23,5 +23,6 @@ public class Interface {
         m.fun3();
        
          m.print();
+         m.fun4();
     }
 }

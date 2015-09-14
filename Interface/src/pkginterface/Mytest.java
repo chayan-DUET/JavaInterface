@@ -8,7 +8,7 @@ package pkginterface;
  *
  * @author Chayan_pc
  */
-public class Mytest implements JavaInterface{
+public class Mytest implements JavaInterface,JavaInterface2{
     int a;
     int b;
     int r;        
@@ -42,5 +42,10 @@ public class Mytest implements JavaInterface{
       void print()
     {
         System.out.println("fun()is="+r);
+    }
+
+    @Override
+    public void fun4() {
+        System.out.println("Inside interface");
     }
 }
